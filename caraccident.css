@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+.nav-glyphish-example .ui-btn .ui-btn-inner {
+	padding-top: 40px;
+}
+.nav-glyphish-example .ui-btn .ui-icon {
+	width: 30px;
+	height: 30px;
+	margin-left: -15px;
+	box-shadow: none;
+}
+#sop .ui-icon {
+	background: url(images/rescue.png) 50% 50% no-repeat;
+	background-size: 24px 24px;
+}
+#phone .ui-icon {
+	background: url(images/phone.png) 50% 50% no-repeat;
+	background-size: 24px 24px;
+}
+#camera .ui-icon {
+	background: url(images/camera.png) 50% 50% no-repeat;
+	background-size: 24px 18px;
+}
+#microphone .ui-icon {
+	background: url(images/microphone.png) 50% 50% no-repeat;
+	background-size: 12px 25px;
+}
+.important-phone {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 110%;
+	color: #990000;
+}
+.div-content-main {
+	margin-left: 80px;
+}
+.div-content-info {
+	margin-left: 20px;
+}
+.div-sop1 {
+	background-image: url(images/step1.png);
+	background-repeat: no-repeat;
+}
+.div-sop2 {
+	background-image: url(images/step2.png);
+	background-repeat: no-repeat;
+}
+.div-sop3 {
+	background-image: url(images/step3.png);
+	background-repeat: no-repeat;
+}
+.div-sop4 {
+	background-image: url(images/step4.png);
+	background-repeat: no-repeat;
+}
+.divcenter {
+	text-align: center;
+}
+.image-space {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.sound-msg {
+	margin-top: 10px;
+	font-size: 120%;
+	color: #000099;
+}
+#prePhoto_box {                     
+	width: 1px;                    
+	height: 1px;                     
+	overflow: hidden;             
+}           
+.ui-page {  
+	backface-visibility: hidden;  
+}

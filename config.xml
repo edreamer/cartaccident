@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.caraccident"
+    version   = "1.0.5">
+
+<name>行車守護者</name>
+
+<description>
+發生車禍時，提供必要協助。
+</description>
+
+<author href="http://www.e-happy.com.tw" email="service@e-happy.com.tw">
+文淵閣工作室
+</author>
+
+<icon src="images/CarIcon.png" gap:platform="android" />
+<gap:splash src="images/CarSplash.png" gap:platform="android" />
+<gap:plugin name="org.apache.cordova.camera" />
+<gap:plugin name="org.apache.cordova.media" />
+<gap:plugin name="org.apache.cordova.file" />
+
+<preference name="phonegap-version" value="2.9.0" />
+
+<preference name="orientation" value="portrait" />
+<preference name="android-minSdkVersion" value="7" />
+
+</widget>

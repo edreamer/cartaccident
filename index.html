@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>行車守護者</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="caraccident.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="caraccident.js" type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+<body>
+<div data-role="page" id="home" data-theme="b">
+  <div data-role="header" data-position="fixed" data-theme="b"> 
+    <h1>行車守護者</h1>
+    <a href="#" data-icon="delete" id="end" data-iconpos="notext">#</a>
+    <a href="#explain" data-icon="info" id="info" data-iconpos="notext">#explain</a>
+  </div>
+  <div data-role="content">
+    <p class="divcenter">
+    	<img src="images/caraccidentlogo.png" width="180" height="198"> 
+    </p>
+    <p>現代社會交通工具使用密集，以致交通事故發生頻繁。但遇到車禍事件，一般人通常都不熟悉處理方式，容易造成雙方當事人在身心健康，甚至財物的損失。車禍守護者提供了精靈式的導引，讓您在面對車禍事件時能有步驟依循，並能確實進行現場證據收集，有利於雙方當事人過失責任的釐清。</p>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="sop1">
+  <div data-role="header" data-position="fixed" data-theme="b"> 
+  	<a href="#home" data-icon="home" data-iconpos="notext">#home</a>
+    <h1>處理程序</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#sop1" class="ui-btn-active">步驟 1</a></li>
+        <li><a href="#sop2">步驟 2</a></li>
+        <li><a href="#sop3">步驟 3</a></li>
+        <li><a href="#sop4">步驟 4</a></li>
+      </ul>
+    </div>
+    <div class="div-sop1">
+      <div class="div-content-main">
+        <h2>放置警告標誌並檢查是否有人受傷</h2>
+        <ul>
+          <li>在車身後方放置「三角牌警告標誌」：避免後方來車追撞。</li>
+          <li>查看是否有人受傷：若有就趕快打 <span class="important-phone">119</span> 送醫急救。</li>
+          <li>記住千萬不要用肇事車輛移送傷患，救護車離開時要詢問傷者姓名及送往的醫院。</li>
+        </ul>
+        <a href="tel:119" data-role="button" data-icon="custom">撥打 119</a> </div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="sop2">
+  <div data-role="header" data-position="fixed" data-theme="b"> 
+  	<a href="#home" data-icon="home" data-iconpos="notext"></a>
+    <h1>處理程序</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#sop1">步驟 1</a></li>
+        <li><a href="#sop2" class="ui-btn-active">步驟 2</a></li>
+        <li><a href="#sop3">步驟 3</a></li>
+        <li><a href="#sop4">步驟 4</a></li>
+      </ul>
+    </div>
+    <div class="div-sop2">
+      <div class="div-content-main">
+        <h2>保留現場以利警方採證</h2>
+        <ul>
+          <li>警方趕到現場時，會繪製現場圖，做為未來肇責研判的依據，因此為保障車主自我權益請勿任意破壞現場。</li>
+          <li>請打 <span class="important-phone">110</span> 報警處理，將來「保險申請」或「訴訟」將以警方記錄為重要參考，因此車禍需由警方到場處理。</li>
+        </ul>
+        <a href="tel:110" data-role="button" data-icon="custom">撥打 110</a> 
+      </div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="sop3">
+  <div data-role="header" data-position="fixed" data-theme="b"> 
+  	<a href="#home" data-icon="home" data-iconpos="notext"></a>
+    <h1>處理程序</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#sop1">步驟 1</a></li>
+        <li><a href="#sop2">步驟 2</a></li>
+        <li><a href="#sop3" class="ui-btn-active">步驟 3</a></li>
+        <li><a href="#sop4">步驟 4</a></li>
+      </ul>
+    </div>
+    <div class="div-sop3">
+      <div class="div-content-main">
+        <h2>拍攝現場相片</h2>
+        <p>記錄以下場景相片，做為將來處理的佐證。</p>
+        <ul>
+          <li>雙方車輛停止情形 — 含全景及個別近景。</li>
+          <li>車輛損害部位及擦刮痕跡。</li>
+          <li>煞車痕跡或刮地痕跡 — 可以放「筆」作為痕跡大小的比較。</li>
+          <li>人員受傷部位及倒地位置、頭朝的方向。</li>
+          <li>玻璃碎片散落狀況及其他遺留物。 </li>
+        </ul>
+        <a href="#photo" data-role="button" data-icon="custom">拍攝照片</a> </div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div data-role="footer" data-theme="b" class="nav-glyphish-example" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="sop4">
+  <div data-role="header" data-position="fixed" data-theme="b"> 
+  	<a href="#home" data-icon="home" data-iconpos="notext">首頁</a>
+    <h1>處理程序</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#sop1">步驟 1</a></li>
+        <li><a href="#sop2">步驟 2</a></li>
+        <li><a href="#sop3">步驟 3</a></li>
+        <li><a href="#sop4" class="ui-btn-active">步驟 4</a></li>
+      </ul>
+    </div>
+    <div class="div-sop4">
+      <div class="div-content-main">
+        <h2>錄音保全證據</h2>
+        <p>可將下列事項錄音，以免遺忘。</p>
+        <ul>
+          <li>事故時間、地點、當事人等資訊。</li>
+          <li>己方人員證詞。</li>
+          <li>現場人員證詞。</li>
+          <li>現場處理實況錄音。</li>
+        </ul>
+        <a href="#record" data-role="button" data-icon="custom">現場錄音</a> </div>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="photo" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>拍攝相片</h1>
+  </div>
+  <div data-role="content" class="divcenter">
+  	<img id="showPhoto">
+    <a id="btnPhoto" data-role="button" data-inline="true" >繼續拍攝</a>
+    <div id="prePhoto_box">                         
+        <div id="prePhoto"></div>                         
+    </div>             
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="record" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>現場錄音</h1>
+  </div>
+  <div data-role="content" class="divcenter">
+    <img id="btnRecord" src="images/startRec.png" width="117" height="41" class="image-space"><img id="btnPlay" src="images/startPlay.png" width="117" height="41" class="image-space">
+    <div id="sndPosition" class="sound-msg"></div>
+  </div>
+  <div data-role="footer" data-theme="b" class="nav-glyphish-example"  data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="dial">
+  <div data-role="header" data-position="fixed" data-theme="b"> 
+  	<a href="#home" data-icon="home" data-iconpos="notext"></a>
+    <h1>緊急撥號</h1>
+  </div>
+  <div data-role="content">
+    <div id="telNumber">
+      <h2>緊急電話號碼</h2>
+      <ul data-role="listview" id="lstTel" data-split-icon="gear" data-split-theme="d" data-inset="true" data-filter="true">
+      </ul>
+      <a href="#append" data-role="button" data-inline="true">新增緊急電話</a> </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="append" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>新增緊急電話</h1>
+  </div>
+  <div data-role="content">
+      <div data-role="fieldcontain">
+        <label for="appendName">電話名稱：</label>
+        <input type="text" name="appendName" id="appendName" value=""  />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="appendNum">電話號碼：</label>
+        <input type="text" name="appendNum" id="appendNum" value=""  />
+      </div>
+    <a id="appendSure" data-inline="true" data-role="button">新增</a>
+    <a id="appendCancel" data-inline="true" data-role="button">取消</a>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="edit" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>修改緊急電話</h1>
+  </div>
+  <div data-role="content">
+      <div data-role="fieldcontain">
+        <label for="editName">電話名稱：</label>
+        <input type="text" name="editName" id="editName" value="" disabled />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="editNum">電話號碼：</label>
+        <input type="text" name="editNum" id="editNum" value=""  />
+      </div>
+    <a id="editSure" data-role="button" data-inline="true" >確定</a>
+    <a id="editDel" data-role="button" data-inline="true">刪除</a>
+    <a id="editCancel" data-role="button" data-inline="true">取消</a>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="explain" data-add-back-btn="true">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h1>說明</h1>
+  </div>
+  <div data-role="content">
+      <div class="div-content-info">
+        <ul>
+          <li>發生車禍時請依照「處理程序」步驟依序操作。</li>
+          <li>如果緊急可直接使用「拍攝相片」及「現場錄音」。</li>
+          <li>「緊急撥號」中存放各種緊急聯絡電話，可以快速撥出。</li>
+          <li>可自行增加「緊急撥的聯絡電話。</li>
+        </ul>
+      </div>
+  </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+    <div data-role="navbar" class="nav-glyphish-example">
+      <ul>
+        <li><a href="#sop1" id="sop" data-icon="custom">處理程序</a></li>
+        <li><a href="#dial" id="phone" data-icon="custom">緊急撥號</a></li>
+        <li><a href="#photo" id="camera" data-icon="custom">相機搜證</a></li>
+        <li><a href="#record" id="microphone" data-icon="custom">對談錄音</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>
